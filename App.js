@@ -13,7 +13,7 @@ export default function App() {
                <StatusBar style="auto" />
       <View style={styles.status}>
         
-              <TouchableOpacity style={styles.touch}>
+              <TouchableOpacity>
                 <AntDesign name="left" size={35} color="white" />
             </TouchableOpacity>
       
@@ -23,7 +23,7 @@ export default function App() {
         onChangeText={(text)=>this.filterSearch(text)}
           />
       
-            <TouchableOpacity style={styles.touch}>
+            <TouchableOpacity>
                 <AntDesign name="bars" size={35} color="white"  />
             </TouchableOpacity>
       </View>
@@ -53,7 +53,7 @@ export default function App() {
         source={require("./printer.webp")}
         />
         <View style={styles.sharp}>
-          <TouchableOpacity style={styles.touch}>
+          <TouchableOpacity>
             <AntDesign name='like1' size={28} color='#9E9E9E' />
             <Text style={styles.footerText}>Like</Text>
           </TouchableOpacity>
@@ -61,7 +61,7 @@ export default function App() {
           <Octicons name="comment" size={28} color="#9E9E9E" />
           <Text>comment</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.touch}>
+          <TouchableOpacity>
           <MaterialCommunityIcons name="share-outline" size={28} color="#9E9E9E" />
           <Text>Share</Text>
           </TouchableOpacity>
